@@ -205,7 +205,7 @@ public class OmniJawsClient {
 
     public Intent getSettingsIntent() {
         return new Intent(Intent.ACTION_MAIN)
-                .setClassName("com.android.settings", "com.android.settings.Settings$QuickSettingsSettingsActivity");
+                .setClassName("org.omnirom.omnijaws", "org.omnirom.omnijaws.SettingsActivityService");
     }
 
     public WeatherInfo getWeatherInfo() {
